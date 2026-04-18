@@ -10,6 +10,17 @@
 !/modules/CMakeLists.txt
 !/modules/*.h
 !/modules/*.cmake
+# Наши модули (живут как git submodule)
+!/modules/mod-ale
+!/modules/mod-ale/**
+!/modules/mod-aoe-loot
+!/modules/mod-aoe-loot/**
+!/modules/mod-player-bot-level-brackets
+!/modules/mod-player-bot-level-brackets/**
+!/modules/mod-playerbots
+!/modules/mod-playerbots/**
+!/modules/mod-transmog
+!/modules/mod-transmog/**
 /build*/
 /var/*
 !/var/build/.gitkeep

@@ -1,0 +1,15 @@
+[submodule "modules/mod-ale"]
+	path = modules/mod-ale
+	url = https://github.com/yukonnomerodin/mod-ale
+[submodule "modules/mod-aoe-loot"]
+	path = modules/mod-aoe-loot
+	url = https://github.com/yukonnomerodin/mod-aoe-loot
+[submodule "modules/mod-player-bot-level-brackets"]
+	path = modules/mod-player-bot-level-brackets
+	url = https://github.com/yukonnomerodin/mod-player-bot-level-brackets
+[submodule "modules/mod-playerbots"]
+	path = modules/mod-playerbots
+	url = https://github.com/yukonnomerodin/mod-playerbots
+[submodule "modules/mod-transmog"]
+	path = modules/mod-transmog
+	url = https://github.com/yukonnomerodin/mod-transmog
