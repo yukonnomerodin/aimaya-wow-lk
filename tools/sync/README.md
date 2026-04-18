@@ -7,7 +7,7 @@
 Из папки `C:\_azerothcore\aimaya-wow-lk`:
 
 ```powershell
-.\sync.ps1
+.\tools\sync\sync.ps1
 ```
 
 Что делает:
@@ -20,4 +20,4 @@
 
 ## Список реп
 
-Файл `repos.json`.
+Файл `tools\sync\repos.json`.

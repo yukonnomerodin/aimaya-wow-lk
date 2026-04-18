@@ -1,6 +1,10 @@
 [CmdletBinding()]
 param(
-  [string]$TargetDir = $(Split-Path -Parent $PSScriptRoot)
+  # По умолчанию кладём репозитории рядом с этим проектом: C:\_azerothcore
+  # (скрипт лежит в aimaya-wow-lk\tools\sync)
+  [string]$TargetDir = $(
+    (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+  )
 )
 
 $ErrorActionPreference = 'Stop'
